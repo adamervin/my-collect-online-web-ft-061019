@@ -9,6 +9,6 @@ def my_collect(language)
 end
 
 
-my_collect(["ruby", "javascript", "python",]) {|language| language.upcase}
+my_collect(["ruby", "javascript", "python","objective-c"]) {|language| language.upcase}
 
 
