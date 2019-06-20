@@ -5,7 +5,7 @@ def my_collect(language)
     lang << yield(language[i])
     i = i + 1
   end
-  collect
+  lang
 end
 
 
