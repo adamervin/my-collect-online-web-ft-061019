@@ -1,6 +1,6 @@
-def my_collect(array)
+def my_collect(language)
   i = 0
-  collect = []
+  lang = []
   while i < array.length
     collect << yield(array[i])
     i+=1
