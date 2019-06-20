@@ -1,14 +1,14 @@
-def my_collect(language)
-lang = []
-i = 0
-  while i < language.length
-   yield (language[i].upcase)
-   
-   lang << language 
-   i = i + 1 
-  
-end 
- lang
+ddef my_collect(array)
+  i = 0
+  collect = []
+  while i < array.length
+    collect << yield(array[i])
+    i+=1
+  end
+  collect
 end
+
+
+my_collect(["ruby", "javascript", "python"]) {|language| language.upcase}
 
 
